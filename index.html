@@ -14,6 +14,7 @@
 <link href='https://fonts.googleapis.com/css?family=Karla' rel='stylesheet'>
 <link href='https://fonts.googleapis.com/css?family=Be Vietnam' rel='stylesheet'> 
 
+
 <script>
 $(document).ready(function(){
   $("#g1").click(function(){
@@ -214,6 +215,7 @@ $(document).ready(function(){
   </div>
 
 
+
 <div class="container-fluid">
   <!-- Slider -->
 
@@ -368,6 +370,10 @@ $(document).ready(function(){
 
 <script>
 
+  $('#g1').on('click',function(){
+    console.log("ya");
+  });
+
 var i=0;
 var r=1;
         $('#carousel-text').html($('#slide-content-'+i).html());
@@ -379,12 +385,16 @@ $('.cnt').html(r+'/15');
         $('#arr2').on('click', function() {
           i++;
                 var r = i%15;
+                if(r<0)
+                  r=r+15;
               $('#carousel-text').html($('#slide-content-'+r).html());
               $('.cnt').html((r+1)+'/15');
         });
         $('#arr1').on('click', function() {
                 i--;
                 var r = i%15;
+                if(r<0)
+                  r=r+15;
               $('#carousel-text').html($('#slide-content-'+r).html());
               $('.cnt').html((r+1)+'/15');
         });
@@ -394,9 +404,9 @@ $('.cnt').html(r+'/15');
 
 <div id="sec">
 <h1 class="" style="margin:5vw 7vw;"><b>PAST EVENTS</b></h1>
- <div class="container-fluid" style="position:inherit;height:50vw;clip-path: inset(0 0 0 26%);margin-left:-180px;overflow: hidden;display:inline-block;" >
+ <div class="container-fluid" style="position:inherit;height:25vw;clip-path: inset(0 0 0 26%);margin-left:-180px;overflow: hidden;display:inline-block;" >
 <div style="text-align:center">
-  <div id="myCarousel1" class="carousel slide" data-interval="false" style="width:35%;height:50%;float:left;margin-right:130px;margin-top:30px">
+  <div id="myCarousel1" class="carousel slide" data-interval="false" style="width:35%;height:50%;float:left;margin-right:130px;margin-top:30px;opacity:0.6">
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner" style="width:100%;height:350px">
@@ -455,7 +465,7 @@ $('.cnt').html(r+'/15');
   </div>
 
 
-<div id="myCarousel3" class="carousel slide" data-interval="false" style="width:15%;height:50%;float:left;position:relative;right:-130px;top:30px">
+<div id="myCarousel3" class="carousel slide" data-interval="false" style="width:15%;height:50%;float:left;position:relative;right:-130px;top:30px;opacity:0.6">
   
 
     <!-- Wrapper for slides -->
@@ -484,6 +494,19 @@ $('.cnt').html(r+'/15');
 
 </div>
 </div>
+</div>
+
+
+<div id="info" class ="col-sm-6 col-sm-offset-3">
+  <h1 style="text-align:center">Android and Machine Learning Bootcamp</h1>
+  <h3>Android and Machine Learning Bootcamp</h3>
+            <p>"You don't have to be great to start, but you have to start to be great."</p><br />
+            <p class="effect" id="eff">ACM Student Chapter, Chitkara University organized a 10-day workshop on Android with Machine Learning to provide an opportunity to all the budding android enthusiasts to witness an in-depth knowledge of Android and take their skills to a whole new level. The instructors for the workshop were the co-founder of LearnCodeOnline , Mr. Saksham Choudhary, who is one of the world's renowned cybersecurity Researcher, along with Mr. Nitesh Kumar, who is the senior-developer in LearnCodeOnline.The workshop instilled a belief in learning by doing, as the students were made to develop many mobile applications, which <span id="g" style="display:none;">were facilitated by Mr. Nitesh, who also made sure that no doubts were left unresolved, which helped students to understand the code and concepts in a much better way. The applications that were developed involved Text Recognition, Todo app, Calculator, Image Recognition, Weather app, Currency converter app, google sign-in and many other beguiling apps. Apart from the News app, prizes were also distributed to students who developed the maximum number of apps.<br />
+            All the participants were handed over the certificates, along with cool stickers and the workshop concluded on a happy note with a group photo!   <a href="#" id="g2"><small><b>(Less..)</b></small></a></span></p>
+            <a href="#" id="g1"class="btn">Read more..</a>
+
+
+  
 </div>
 
   
