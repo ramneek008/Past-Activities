@@ -15,174 +15,7 @@
 <link href='https://fonts.googleapis.com/css?family=Be Vietnam' rel='stylesheet'> 
 
 
-<script>
-$(document).ready(function(){
-  $("#g1").click(function(){
-    $("#g").show();
-    $("#g1").hide();
-     $("#eff").removeClass("effect");
-  });
-   $("#g2").click(function(){
-    $("#g").hide();
-    $("#g1").show();
-    $("#eff").addClass("effect");
-  });
-
-   $("#i1").click(function(){
-    $("#i").show();
-    $("#i1").hide();
-     $("#eff1").removeClass("effect");
-  });
-   $("#i2").click(function(){
-    $("#i").hide();
-    $("#i1").show();
-    $("#eff1").addClass("effect");
-  });
-
-   $("#j1").click(function(){
-    $("#j").show();
-    $("#j1").hide();
-     $("#eff2").removeClass("effect");
-  });
-   $("#j2").click(function(){
-    $("#j").hide();
-    $("#j1").show();
-    $("#eff2").addClass("effect");
-  });
-
-   $("#k1").click(function(){
-    $("#k").show();
-    $("#k1").hide();
-     $("#eff3").removeClass("effect");
-  });
-   $("#k2").click(function(){
-    $("#k").hide();
-    $("#k1").show();
-    $("#eff3").addClass("effect");
-  });
-
-   $("#l1").click(function(){
-    $("#l").show();
-    $("#l1").hide();
-     $("#eff4").removeClass("effect");
-  });
-   $("#l2").click(function(){
-    $("#l").hide();
-    $("#l1").show();
-    $("#eff4").addClass("effect");
-  });
-
-   $("#m1").click(function(){
-    $("#m").show();
-    $("#m1").hide();
-     $("#eff5").removeClass("effect");
-  });
-   $("#m2").click(function(){
-    $("#m").hide();
-    $("#m1").show();
-    $("#eff5").addClass("effect");
-  });
-
-   $("#n1").click(function(){
-    $("#n").show();
-    $("#n1").hide();
-     $("#eff6").removeClass("effect");
-  });
-   $("#n2").click(function(){
-    $("#n").hide();
-    $("#n1").show();
-    $("#eff6").addClass("effect");
-  });
-
-   $("#o1").click(function(){
-    $("#o").show();
-    $("#o1").hide();
-     $("#eff7").removeClass("effect");
-  });
-   $("#o2").click(function(){
-    $("#o").hide();
-    $("#o1").show();
-    $("#eff7").addClass("effect");
-  });
-
-   $("#q1").click(function(){
-    $("#q").show();
-    $("#q1").hide();
-     $("#eff8").removeClass("effect");
-  });
-   $("#q2").click(function(){
-    $("#q").hide();
-    $("#q1").show();
-    $("#eff8").addClass("effect");
-  });
-
-   $("#r1").click(function(){
-    $("#r").show();
-    $("#r1").hide();
-     $("#eff9").removeClass("effect");
-  });
-   $("#r2").click(function(){
-    $("#r").hide();
-    $("#r1").show();
-    $("#eff9").addClass("effect");
-  });
-
-   $("#s1").click(function(){
-    $("#s").show();
-    $("#s1").hide();
-     $("#eff10").removeClass("effect");
-  });
-   $("#s2").click(function(){
-    $("#s").hide();
-    $("#s1").show();
-    $("#eff10").addClass("effect");
-  });
-
-   $("#t1").click(function(){
-    $("#t").show();
-    $("#t1").hide();
-     $("#eff11").removeClass("effect");
-  });
-   $("#t2").click(function(){
-    $("#t").hide();
-    $("#t1").show();
-    $("#eff11").addClass("effect");
-  });
-
-   $("#u1").click(function(){
-    $("#u").show();
-    $("#u1").hide();
-     $("#eff12").removeClass("effect");
-  });
-   $("#u2").click(function(){
-    $("#u").hide();
-    $("#u1").show();
-    $("#eff12").addClass("effect");
-  });
-
-   $("#v1").click(function(){
-    $("#v").show();
-    $("#v1").hide();
-     $("#eff13").removeClass("effect");
-  });
-   $("#v2").click(function(){
-    $("#v").hide();
-    $("#v1").show();
-    $("#eff13").addClass("effect");
-  });
-
-   $("#w1").click(function(){
-    $("#w").show();
-    $("#w1").hide();
-     $("#eff14").removeClass("effect");
-  });
-   $("#w2").click(function(){
-    $("#w").hide();
-    $("#w1").show();
-    $("#eff14").addClass("effect");
-  });
-
- });
+<script src="jqry.js">
 </script>
 
 
@@ -198,15 +31,15 @@ $(document).ready(function(){
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#"><img id ="logo" class="img-responsive" src="res/logo.png"></a>
+      <a class="navbar-brand" ><img id ="logo" class="img-responsive" src="res/logo.png"></button>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Home</a></li>
-        <li class="active"><a href="#">Events</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Team</a></li>
-        <li style="margin-right:40px"><a href="#">Contact</a></li>
+        <li><a >Home</a></li>
+        <li class="active"><a >Events</a></li>
+        <li><a >About Us</a></li>
+        <li><a >Team</a></li>
+        <li style="margin-right:40px"><a >Contact</a></li>
 
       </ul>
     </div>
@@ -229,92 +62,92 @@ $(document).ready(function(){
             <div id="heading"><h3>Android and Machine Learning Bootcamp</h3></div>
             <p>"You don't have to be great to start, but you have to start to be great."</p><br />
             <p class="effect" id="eff">ACM Student Chapter, Chitkara University organized a 10-day workshop on Android with Machine Learning to provide an opportunity to all the budding android enthusiasts to witness an in-depth knowledge of Android and take their skills to a whole new level. The instructors for the workshop were the co-founder of LearnCodeOnline , Mr. Saksham Choudhary, who is one of the world's renowned cybersecurity Researcher, along with Mr. Nitesh Kumar, who is the senior-developer in LearnCodeOnline.The workshop instilled a belief in learning by doing, as the students were made to develop many mobile applications, which <span id="g" style="display:none;">were facilitated by Mr. Nitesh, who also made sure that no doubts were left unresolved, which helped students to understand the code and concepts in a much better way. The applications that were developed involved Text Recognition, Todo app, Calculator, Image Recognition, Weather app, Currency converter app, google sign-in and many other beguiling apps. Apart from the News app, prizes were also distributed to students who developed the maximum number of apps.<br />
-            All the participants were handed over the certificates, along with cool stickers and the workshop concluded on a happy note with a group photo!   <a href="#" id="g2"><small><b>(Less..)</b></small></a></span></p>
-            <a href="#" id="g1"class="btn">Read more..</a>
+            All the participants were handed over the certificates, along with cool stickers and the workshop concluded on a happy note with a group photo!   <button  id="g2"><small><b>(Less..)</b></small></button></span></p>
+            <button  id="g1"class="btn">Read more..</button>
           </div>
 
           <div id="slide-content-1">
             <div id="heading"><h3>Expert talk on Big Data and Hadoop</h3></div>
-            <p class="effect" id="eff1">Chitkara ACM Student Chapter organized an Expert talk which was delivered by Mr Sarabjot Singh who has 9 years experience in field of Big Data and Hadoop and have special appreciation from INDIAN AIR FORCE on 27th March 2019 at Chitkara University Punjab campus. We feel privileged that he came in our campus and it was such a wonderful and interesting seminar . <span id="i" style="display:none;">More than 100 enthusiastic students participated in the successful session. The event was a great success and it imparts and enhance the knowledge about the big data and hadoop.   <a href="#" id="i2"><small><b>(Less..)</b></small></a></span></p>
-            <a href="#" id="i1"class="btn">Read more..</a>
+            <p class="effect" id="eff1">Chitkara ACM Student Chapter organized an Expert talk which was delivered by Mr Sarabjot Singh who has 9 years experience in field of Big Data and Hadoop and have special appreciation from INDIAN AIR FORCE on 27th March 2019 at Chitkara University Punjab campus. We feel privileged that he came in our campus and it was such a wonderful and interesting seminar . <span id="i" style="display:none;">More than 100 enthusiastic students participated in the successful session. The event was a great success and it imparts and enhance the knowledge about the big data and hadoop.   <button  id="i2"><small><b>(Less..)</b></small></button></span></p>
+            <button  id="i1"class="btn">Read more..</button>
           </div>
 
           <div id="slide-content-2">
             <div id="heading"><h3>Hackon Workshop</h3></div>
-            <p class="effect" id="eff2">ACM student Chapter Chitkara University organized two days workshop on #Ethical_Hacking and #Information_Security in association with learncodeonline.in . The resource person for the workshop was Co-founder of learncodeonline.in Mr Saksham Choudhary who is world's renowned #Cyber-Security Researcher and very famous Youtuber. In this workshop students participated with great interest and they get hands-on on the topics like #Social_Attacks , #CCTV_Attacks , #BurpSuite , #SQL_Injection , <span id="j" style="display:none;">  #Web-cam_Hacking and many more .After completing the workshop students got certification as well for #Cyber_Security_Expert Level-1 and some goodies too.<a id="j2"><small><b>(Less..)</b></small></a></span></p>
-            <a id="j1"class="btn">Read more..</a>
+            <p class="effect" id="eff2">ACM student Chapter Chitkara University organized two days workshop on #Ethical_Hacking and #Information_Security in association with learncodeonline.in . The resource person for the workshop was Co-founder of learncodeonline.in Mr Saksham Choudhary who is world's renowned #Cyber-Security Researcher and very famous Youtuber. In this workshop students participated with great interest and they get hands-on on the topics like #Social_Attacks , #CCTV_Attacks , #BurpSuite , #SQL_Injection , <span id="j" style="display:none;">  #Web-cam_Hacking and many more .After completing the workshop students got certification as well for #Cyber_Security_Expert Level-1 and some goodies too.<button id="j2"><small><b>(Less..)</b></small></button></span></p>
+            <button id="j1"class="btn">Read more..</button>
           </div>
 
           <div id="slide-content-3">
             <div id="heading"><h3>Codathon 2K19</h3></div>
-            <p class="effect" id="eff3">ACM Student Chapter, Department of Computer Science and Engineering organized CODATHON2K19 a coding competition for the students. The completion consisted of two rounds, screening round was on 29/01/2019 which was an off-site round, the final round was on 31/01/2019. Total 180 students registered for the screening round. Over 180 registered students for the screening round, top 60 students went on for the final round. It was a team event in which participants had to code together. This event inculcated teamwork and gave the young engineers a chance to get to know the industry standards. For the screening round, the teams were given 3 problems to code and while in the final round they were given six real-life coding problem to code in C or C++ languages.<span id="k" style="display:none;">  The first position for the event was bagged by Yatin Sindi & Arpit Sharma of CSE 3rd Year and the second position was claimed by Ananay Bakshi & Avnish Dewan of CSE 2nd Year. The winners got a cash prize of 3000/- and 2000/- respectively along with trophies and certificates..<a id="k2"><small><b>(Less..)</b></small></a></span></p>
-            <a id="k1"class="btn">Read more..</a>
+            <p class="effect" id="eff3">ACM Student Chapter, Department of Computer Science and Engineering organized CODATHON2K19 a coding competition for the students. The completion consisted of two rounds, screening round was on 29/01/2019 which was an off-site round, the final round was on 31/01/2019. Total 180 students registered for the screening round. Over 180 registered students for the screening round, top 60 students went on for the final round. It was a team event in which participants had to code together. This event inculcated teamwork and gave the young engineers a chance to get to know the industry standards. For the screening round, the teams were given 3 problems to code and while in the final round they were given six real-life coding problem to code in C or C++ languages.<span id="k" style="display:none;">  The first position for the event was bagged by Yatin Sindi & Arpit Sharma of CSE 3rd Year and the second position was claimed by Ananay Bakshi & Avnish Dewan of CSE 2nd Year. The winners got a cash prize of 3000/- and 2000/- respectively along with trophies and certificates..<button id="k2"><small><b>(Less..)</b></small></button></span></p>
+            <button id="k1"class="btn">Read more..</button>
           </div>
 
           <div id="slide-content-4">
             <div id="heading"><h3>Workshop on Amazon Web Services</h3></div>
-            <p class="effect" id="eff4">One another successful event has come to an end!!!! ACM student chapter organised a workshop in AWS which came to an end today. We all are heartiest thankful to MR. SHUBHAM SHARMA for his excellent inputs and dedication towards the students which made this workshop an another successful event. We are also thankful to the student for their active participation in the event and hope that this workshop will become a great boon in their future. <span id="l" style="display:none;"> Hope tou all have enjoyed the workshop and we'll get you all again in our next event which will be coming soon.<a id="l2"><small><b>(Less..)</b></small></a></span></p>
-            <a id="l1"class="btn">Read more..</a>
+            <p class="effect" id="eff4">One another successful event has come to an end!!!! ACM student chapter organised a workshop in AWS which came to an end today. We all are heartiest thankful to MR. SHUBHAM SHARMA for his excellent inputs and dedication towards the students which made this workshop an another successful event. We are also thankful to the student for their active participation in the event and hope that this workshop will become a great boon in their future. <span id="l" style="display:none;"> Hope tou all have enjoyed the workshop and we'll get you all again in our next event which will be coming soon.<button id="l2"><small><b>(Less..)</b></small></button></span></p>
+            <button id="l1"class="btn">Read more..</button>
           </div>
 
           <div id="slide-content-5">
             <div id="heading"><h3>DSP Talk On WLAN and CYBER SECURITY</h3></div>
-            <p class="effect" id="eff5">ACM STUDENT CHAPTER organized an Expert talk on WLAN Security And CYBER SECURITY presented by Mr. Guru Raj (Young Scientist awardee for International travel Grants from ITS-SERB,DST, Government of India in December 2016). Students were found very interactive with the speaker . They got great knowledge in the field of WLAN and Cyber Security. There was also a hands-on session on Cyber Security after the expert talk in which selected students get the opportunity to know how things happen in the field of Cyber Security.<span id="m" style="display:none;"> The overall outcome of the event was excellent . All the students participant in the talk and hands-on session actively.<a id="m2"><small><b>(Less..)</b></small></a></span></p>
-            <a id="m1"class="btn">Read more..</a>
+            <p class="effect" id="eff5">ACM STUDENT CHAPTER organized an Expert talk on WLAN Security And CYBER SECURITY presented by Mr. Guru Raj (Young Scientist awardee for International travel Grants from ITS-SERB,DST, Government of India in December 2016). Students were found very interactive with the speaker . They got great knowledge in the field of WLAN and Cyber Security. There was also a hands-on session on Cyber Security after the expert talk in which selected students get the opportunity to know how things happen in the field of Cyber Security.<span id="m" style="display:none;"> The overall outcome of the event was excellent . All the students participant in the talk and hands-on session actively.<button id="m2"><small><b>(Less..)</b></small></button></span></p>
+            <button id="m1"class="btn">Read more..</button>
           </div>
 
           <div id="slide-content-6">
             <div id="heading"><h3>Clash Of Geeks</h3></div>
-            <p class="effect" id="eff6">Clash of Geeks organised by ACM chapter to explore the potential of students in programming. There were two rounds for this event , first was screening round in which 50 teams were selected for final round based on the passing criteria and in the final round students were given compex problems and they have to solve the programming questions in C/C++ environment on hackerrank. Students took their time and submit their solutions. From the selected 50 teams two teams were declared as the winners of this event first and second respectively. <span id="n" style="display:none;"> RESULTS: Ist prize - GUNEET GARG and AYUSH SINGLA (4th sem); 2nd prize - VIPUL POPLI and KUNAL PAHWA (4th sem)<a id="n2"><small><b>(Less..)</b></small></a></span></p>
-            <a id="n1"class="btn">Read more..</a>
+            <p class="effect" id="eff6">Clash of Geeks organised by ACM chapter to explore the potential of students in programming. There were two rounds for this event , first was screening round in which 50 teams were selected for final round based on the passing criteria and in the final round students were given compex problems and they have to solve the programming questions in C/C++ environment on hackerrank. Students took their time and submit their solutions. From the selected 50 teams two teams were declared as the winners of this event first and second respectively. <span id="n" style="display:none;"> RESULTS: Ist prize - GUNEET GARG and AYUSH SINGLA (4th sem); 2nd prize - VIPUL POPLI and KUNAL PAHWA (4th sem)<button id="n2"><small><b>(Less..)</b></small></button></span></p>
+            <button id="n1"class="btn">Read more..</button>
           </div>
 
           <div id="slide-content-7">
             <div id="heading"><h3>Industrial Visit to NITTTR,Chandigarh</h3></div>
-            <p class="effect" id="eff7">IE(I) Student Chapters, ACM, IEEE Student Chapter of Department of Computer Science and Engineering organized an industrial visit to National Institute of Technical Teachers Training & Research(NITTTR), Chandigarh on 29 March 2018. Three faculty members of department and 37 students of ACM, IE(I) and IEEE visited the site. NITTTR had hosted an international conference with delegates from all over the world. The Chief Guest for the conference was Dr A.R Rao, Director NIPER Mohali. Dr BiplabSikdar (National University of Singapore, Singapore) , Dr. MD Mamun (UniversitiKebangsaan Malaysia, Malaysia) and Prof S.S. Pattnaik (Director-NITTTR, Chandigarh) were some of the delegates that attended the conference.<span id="o" style="display:none;"> There were four different talks on Future of Technology and Cyber Security <a id="o2"><small><b>(Less..)</b></small></a></span></p>
-            <a id="o1"class="btn">Read more..</a>
+            <p class="effect" id="eff7">IE(I) Student Chapters, ACM, IEEE Student Chapter of Department of Computer Science and Engineering organized an industrial visit to National Institute of Technical Teachers Training & Research(NITTTR), Chandigarh on 29 March 2018. Three faculty members of department and 37 students of ACM, IE(I) and IEEE visited the site. NITTTR had hosted an international conference with delegates from all over the world. The Chief Guest for the conference was Dr A.R Rao, Director NIPER Mohali. Dr BiplabSikdar (National University of Singapore, Singapore) , Dr. MD Mamun (UniversitiKebangsaan Malaysia, Malaysia) and Prof S.S. Pattnaik (Director-NITTTR, Chandigarh) were some of the delegates that attended the conference.<span id="o" style="display:none;"> There were four different talks on Future of Technology and Cyber Security <button id="o2"><small><b>(Less..)</b></small></button></span></p>
+            <button id="o1"class="btn">Read more..</button>
           </div>
 
           <div id="slide-content-8">
             <div id="heading"><h3>Acm-W Hackathon</h3></div>
-            <p class="effect" id="eff8">According to the famous saying of mrs. Kirthiga reddy, head, facebook india "i strongly believe that the first step and the most important tool towards women empowerment is education. The right education will ensure that women are more competent and confident in taking up bigger challenges and raising the bar in any field". To promote women in engineering, acm student chapter, department of computer science and engineering organized a 24-hour national level hackathon in collaboration with acm-w and oracle academy on 2nd -3rd oct, 2017 for girl students.<span id="q" style="display:none;">3rd of october marked the end of the hackathon. This journey of the hackathon started with the participation of 308 enthusiastic and tech-savvy teams from all over india with the theme of digital india. A team of 52 highly professional members from acm india, chitkara university, and oracle academy was formed to review the ideas and select the best 20 teams out of it. <a id="q2"><small><b>(Less..)</b></small></a></span></p>
-            <a id="q1"class="btn">Read more..</a>
+            <p class="effect" id="eff8">According to the famous saying of mrs. Kirthiga reddy, head, facebook india "i strongly believe that the first step and the most important tool towards women empowerment is education. The right education will ensure that women are more competent and confident in taking up bigger challenges and raising the bar in any field". To promote women in engineering, acm student chapter, department of computer science and engineering organized a 24-hour national level hackathon in collaboration with acm-w and oracle academy on 2nd -3rd oct, 2017 for girl students.<span id="q" style="display:none;">3rd of october marked the end of the hackathon. This journey of the hackathon started with the participation of 308 enthusiastic and tech-savvy teams from all over india with the theme of digital india. A team of 52 highly professional members from acm india, chitkara university, and oracle academy was formed to review the ideas and select the best 20 teams out of it. <button id="q2"><small><b>(Less..)</b></small></button></span></p>
+            <button id="q1"class="btn">Read more..</button>
           </div>
 
           <div id="slide-content-9">
             <div id="heading"><h3>CS Pathshala</h3></div>
-            <p class="effect" id="eff9">Acm student chapter, chitkara university, in collaboration with acm india and cspathshala, organized a one-day workshop on the topic "bringing computational thinking to school" , on 15 july, 2017 at chitkara international school, sector-25,chandigarh. The main goal of this workshop was to impart pedagogical as well as content training to teachers. Interacting with 165 delegates in the workshop was ms. Sonia garcha, cspathshala volunteer, program associate - csr, development support team along-with guest speaker mr. Madhavan mukund, president of acm india and professor and dean of studies, chennai mathematical institute, chennai. <span id="r" style="display:none;">  This workshop imparted training to the teachers on problem solving and computational thinking, which enabled them to learn more about topics such as, decomposition, patterns, abstraction, algorithms, analysis and programming with day to day examples. Also, teachers were made familiar with the cspathshala training aids, and were also engaged in interesting activities on the above mentioned topics.<a id="r2"><small><b>(Less..)</b></small></a></span></p>
-            <a id="r1"class="btn">Read more..</a>
+            <p class="effect" id="eff9">Acm student chapter, chitkara university, in collaboration with acm india and cspathshala, organized a one-day workshop on the topic "bringing computational thinking to school" , on 15 july, 2017 at chitkara international school, sector-25,chandigarh. The main goal of this workshop was to impart pedagogical as well as content training to teachers. Interacting with 165 delegates in the workshop was ms. Sonia garcha, cspathshala volunteer, program associate - csr, development support team along-with guest speaker mr. Madhavan mukund, president of acm india and professor and dean of studies, chennai mathematical institute, chennai. <span id="r" style="display:none;">  This workshop imparted training to the teachers on problem solving and computational thinking, which enabled them to learn more about topics such as, decomposition, patterns, abstraction, algorithms, analysis and programming with day to day examples. Also, teachers were made familiar with the cspathshala training aids, and were also engaged in interesting activities on the above mentioned topics.<button id="r2"><small><b>(Less..)</b></small></button></span></p>
+            <button id="r1"class="btn">Read more..</button>
           </div>
 
           <div id="slide-content-10">
             <div id="heading"><h3>Infosys - IT Park Chandigarh</h3></div>
-            <p class="effect" id="eff10">Chitkara acm student chapter organized an industrial visit to infosys chandigarh. 14 members of acm chitkara visited the site. The event started with the presentation given by mr. Kanwarpreet singh, who discussed software testing skills. Afterwards, a very interactive q&a session was held regarding the new trends in industries and new fields in technology. At last, the lunch was followed by the guided tour of the company. <span id="s" style="display:none;"><a id="s2"><small><b>(Less..)</b></small></a></span></p>
-            <a id="s1"class="btn">Read more..</a>
+            <p class="effect" id="eff10">Chitkara acm student chapter organized an industrial visit to infosys chandigarh. 14 members of acm chitkara visited the site. The event started with the presentation given by mr. Kanwarpreet singh, who discussed software testing skills. Afterwards, a very interactive q&a session was held regarding the new trends in industries and new fields in technology. At last, the lunch was followed by the guided tour of the company. <span id="s" style="display:none;"><button id="s2"><small><b>(Less..)</b></small></button></span></p>
+            <button id="s1"class="btn">Read more..</button>
           </div>
 
           <div id="slide-content-11">
             <div id="heading"><h3>Aarda</h3></div>
-            <p class="effect" id="eff11">Acm student chapter chitkara university organized an event aarda in which second year students of be cse displayed their integrated projects in different categories. The event started with the arrival of highly reputed externals from various domains ranging from academicians to corporate world. Venueswere embellished with posterpresentations. The students showcased theirprojects. The evaluations of students were highly appreciated by the examiners. <span id="t" style="display:none;">  The event reached its zenith with the involvement of students from sections of cse 2nd year (e to h). The students received accolades with eminent award, star award and consolation prize.<a id="t2"><small><b>(Less..)</b></small></a></span></p>
-            <a id="t1"class="btn">Read more..</a>
+            <p class="effect" id="eff11">Acm student chapter chitkara university organized an event aarda in which second year students of be cse displayed their integrated projects in different categories. The event started with the arrival of highly reputed externals from various domains ranging from academicians to corporate world. Venueswere embellished with posterpresentations. The students showcased theirprojects. The evaluations of students were highly appreciated by the examiners. <span id="t" style="display:none;">  The event reached its zenith with the involvement of students from sections of cse 2nd year (e to h). The students received accolades with eminent award, star award and consolation prize.<button id="t2"><small><b>(Less..)</b></small></button></span></p>
+            <button id="t1"class="btn">Read more..</button>
           </div>
 
           <div id="slide-content-12">
             <div id="heading"><h3>Expert Talk -DR. Amit Nanavati</h3></div>
-            <p class="effect" id="eff12">Acm student chapter, chitkara university organized a dsp (distinguished speaker program) on the topic "what does engineering mean to a student ?" on 15th march, 2017 . The session witnessed a turnaround of about 200 participants, comprising of students from cse and m.tech department and faculty members from the research & cse department.<span id="u" style="display:none;"> <a id="u2"><small><b>(Less..)</b></small></a></span></p>
-            <a id="u1"class="btn">Read more..</a>
+            <p class="effect" id="eff12">Acm student chapter, chitkara university organized a dsp (distinguished speaker program) on the topic "what does engineering mean to a student ?" on 15th march, 2017 . The session witnessed a turnaround of about 200 participants, comprising of students from cse and m.tech department and faculty members from the research & cse department.<span id="u" style="display:none;"> <button id="u2"><small><b>(Less..)</b></small></button></span></p>
+            <button id="u1"class="btn">Read more..</button>
           </div>
 
           <div id="slide-content-13">
             <div id="heading"><h3>Alumni Talk - MR. Prateek Garg</h3></div>
-            <p class="effect" id="eff13">Acm student chapter (department of computer science and engineering) has invited mr. Chandra shekhar (ceo of acm india) for a visit to our campus (chitkara university punjab) on 1st april, 2017. During the campus visit, he attended a meeting with dr. Archana matri, dr. Rajnesh sharma and ms. Meenu khurana. During the meeting, he discussed various acm india events and also suggested few of them to be conducted by chitkara university. <span id="v" style="display:none;"> Cs-pathshala, summer school workshop, acm-w and esp were the pioneer event to be hosted by chitkara university. <a id="v2"><small><b>(Less..)</b></small></a></span></p>
-            <a id="v1"class="btn">Read more..</a>
+            <p class="effect" id="eff13">Acm student chapter (department of computer science and engineering) has invited mr. Chandra shekhar (ceo of acm india) for a visit to our campus (chitkara university punjab) on 1st april, 2017. During the campus visit, he attended a meeting with dr. Archana matri, dr. Rajnesh sharma and ms. Meenu khurana. During the meeting, he discussed various acm india events and also suggested few of them to be conducted by chitkara university. <span id="v" style="display:none;"> Cs-pathshala, summer school workshop, acm-w and esp were the pioneer event to be hosted by chitkara university. <button id="v2"><small><b>(Less..)</b></small></button></span></p>
+            <button id="v1"class="btn">Read more..</button>
           </div>
 
           <div id="slide-content-14">
             <div id="heading"><h3>Technovation</h3></div>
-            <p class="effect" id="eff14">Acm student chapter chitkara university organized an event technovation in which third year students of be cse displayed their integrated projects in different categories. The event started with the arrival of highly reputed externals from various domains ranging from academicians to corporate world. Venues were embellished with poster presentations. The students showcased their projects. The evaluations of students were highly appreciated by the examiners.<span id="w" style="display:none;"><a id="w2"><small><b>(Less..)</b></small></a></span></p>
-            <a id="w1"class="btn">Read more..</a>
+            <p class="effect" id="eff14">Acm student chapter chitkara university organized an event technovation in which third year students of be cse displayed their integrated projects in different categories. The event started with the arrival of highly reputed externals from various domains ranging from academicians to corporate world. Venues were embellished with poster presentations. The students showcased their projects. The evaluations of students were highly appreciated by the examiners.<span id="w" style="display:none;"><button id="w2"><small><b>(Less..)</b></small></button></span></p>
+            <button id="w1"class="btn">Read more..</button>
           </div>
             
         </div>
@@ -432,7 +265,7 @@ $('.cnt').html(r+'/15');
   </div>
 
 
-  <div id="myCarousel2" class="carousel slide" data-interval="false" style="width:40%;height:contain;text-align:center;float:left; box-shadow: 10px 10px 5px #E9DFF8;">
+  <div id="myCarousel2" class="carousel slide" data-interval="false" style="width:40%;height:contain;text-align:center;float:left; box-shadow: 10px 40px 5px #E9DFF8;">
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner" style="width:100%;height:400px;">
@@ -453,13 +286,11 @@ $('.cnt').html(r+'/15');
       <div class="item"><img src="res/acm1.png" style="width:100%;height:400px"></div>
     </div>
 
-<a class="left carousel-control" href="[id^=myCarousel]" data-slide="prev">
+<a class="left carousel-control" id="go1" href="[id^=myCarousel]" data-slide="prev">
       <img src="res/Arrow-up.png" style="transform: rotate(-90deg);width:2vw">
-      <span class="sr-only">Previous</span>
     </a>
-    <a class="right carousel-control" href="[id^=myCarousel]" data-slide="next">
+    <a class="right carousel-control" id="go2" href="[id^=myCarousel]" data-slide="next">
       <img src="res/Arrow-up.png" style="transform: rotate(90deg);width:2vw">
-      <span class="sr-only">Next</span>
     </a>
    
   </div>
@@ -496,20 +327,122 @@ $('.cnt').html(r+'/15');
 </div>
 </div>
 
-
-<div id="info" class ="col-sm-6 col-sm-offset-3">
-  <h1 style="text-align:center">Android and Machine Learning Bootcamp</h1>
-  <h3>Android and Machine Learning Bootcamp</h3>
-            <p>"You don't have to be great to start, but you have to start to be great."</p><br />
-            <p class="effect" id="eff">ACM Student Chapter, Chitkara University organized a 10-day workshop on Android with Machine Learning to provide an opportunity to all the budding android enthusiasts to witness an in-depth knowledge of Android and take their skills to a whole new level. The instructors for the workshop were the co-founder of LearnCodeOnline , Mr. Saksham Choudhary, who is one of the world's renowned cybersecurity Researcher, along with Mr. Nitesh Kumar, who is the senior-developer in LearnCodeOnline.The workshop instilled a belief in learning by doing, as the students were made to develop many mobile applications, which <span id="g" style="display:none;">were facilitated by Mr. Nitesh, who also made sure that no doubts were left unresolved, which helped students to understand the code and concepts in a much better way. The applications that were developed involved Text Recognition, Todo app, Calculator, Image Recognition, Weather app, Currency converter app, google sign-in and many other beguiling apps. Apart from the News app, prizes were also distributed to students who developed the maximum number of apps.<br />
-            All the participants were handed over the certificates, along with cool stickers and the workshop concluded on a happy note with a group photo!   <a href="#" id="g2"><small><b>(Less..)</b></small></a></span></p>
-            <a href="#" id="g1"class="btn">Read more..</a>
-
-
-  
+<div id="info" class ="col-sm-6 col-sm-offset-3" style="z-index:1">
 </div>
 
-  
+<div style="display:none;" id="slide-content">
+          <div id="bs-0">
+            <h2>Android and Machine Learning Bootcamp</h2>
+            <p class="effect" id="effe" style="text-align:justify">ACM Student Chapter, Chitkara University organized a 10-day workshop on Android with Machine Learning to provide an opportunity to all the budding android enthusiasts to witness an in-depth knowledge of Android and take <span id="ba" style="display:none;">their skills to a whole new level. The instructors for the workshop were the co-founder of LearnCodeOnline , Mr. Saksham Choudhary, who is one of the world's renowned cybersecurity Researcher, along with Mr. Nitesh Kumar, who is the senior-developer in LearnCodeOnline.The workshop instilled a belief in learning by doing, as the students were made to develop many mobile applications, which were facilitated by Mr. Nitesh, who also made sure that no doubts were left unresolved, which helped students to understand the code and concepts in a much better way. The applications that were developed involved Text Recognition, Todo app, Calculator, Image Recognition, Weather app, Currency converter app, google sign-in and many other beguiling apps. Apart from the News app, prizes were also distributed to students who developed the maximum number of apps.<br /><button id="ba2"><small><b>(Less..)</b></small></button></span></p>
+            <button id="ba1" class="btn">Read more..</button>
+          </div>
+
+          <div id="bs-1">
+            <h2>Expert talk on Big Data and Hadoop</h2>
+            <p class="effect" id="effe1" style="text-align:justify">Chitkara ACM Student Chapter organized an Expert talk which was delivered by Mr Sarabjot Singh who has 9 years experience in field of Big Data and Hadoop and have special appreciation from INDIAN AIR FORCE on 27th March  <span id="bb" style="display:none;">2019 at Chitkara University Punjab campus. We feel privileged that he came in our campus and it was such a wonderful and interesting seminar .More than 100 enthusiastic students participated in the successful session. The event was a great success and it imparts and enhance the knowledge about the big data and hadoop.   <a  id="bb2"><small><b>(Less..)</b></small></a></span></p>
+            <button id="bb1" class="btn">Read more..</button>
+          </div>
+
+          <div id="bs-2">
+            <h2>Hackon Workshop</h2>
+            <p class="effect" id="effe2" style="text-align:justify">ACM student Chapter Chitkara University organized two days workshop on #Ethical_Hacking and #Information_Security in association with learncodeonline.in . The resource person for the workshop was Co-founder of <span id="bc" style="display:none;"> learncodeonline.in Mr Saksham Choudhary who is world's renowned #Cyber-Security Researcher and very famous Youtuber. In this workshop students participated with great interest and they get hands-on on the topics like #Social_Attacks , #CCTV_Attacks , #BurpSuite , #SQL_Injection ,  #Web-cam_Hacking and many more .After completing the workshop students got certification as well for #Cyber_Security_Expert Level-1 and some goodies too.<button id="bc2"><small><b>(Less..)</b></small></button></span></p>
+            <button id="bc1" class="btn">Read more..</button>
+          </div>
+
+          <div id="bs-3">
+            <h2>Codathon 2K19</h2>
+            <p class="effect" id="effe3" style="text-align:justify">ACM Student Chapter, Department of Computer Science and Engineering organized CODATHON2K19 a coding competition for the students. The completion consisted of two rounds, screening round was on 29/01/2019 <span id="bd" style="display:none;"> which was an off-site round, the final round was on 31/01/2019. Total 180 students registered for the screening round. Over 180 registered students for the screening round, top 60 students went on for the final round. It was a team event in which participants had to code together. This event inculcated teamwork and gave the young engineers a chance to get to know the industry standards. For the screening round, the teams were given 3 problems to code and while in the final round they were given six real-life coding problem to code in C or C++ languages. The first position for the event was bagged by Yatin Sindi & Arpit Sharma of CSE 3rd Year and the second position was claimed by Ananay Bakshi & Avnish Dewan of CSE 2nd Year. The winners got a cash prize of 3000/- and 2000/- respectively along with trophies and certificates..<button id="bd2"><small><b>(Less..)</b></small></button></span></p>
+            <button id="bd1" class="btn">Read more..</button>
+          </div>
+
+          <div id="bs-4">
+            <h2>Workshop on Amazon Web Services</h2>
+            <p class="effect" id="effe4" style="text-align:justify">One another successful event has come to an end!!!! ACM student chapter organised a workshop in AWS which came to an end today. We all are heartiest thankful to MR. SHUBHAM SHARMA for his excellent inputs and dedication <span id="be" style="display:none;">towards the students which made this workshop an another successful event. We are also thankful to the student for their active participation in the event and hope that this workshop will become a great boon in their future.  Hope tou all have enjoyed the workshop and we'll get you all again in our next event which will be coming soon.<button id="be2"><small><b>(Less..)</b></small></button></span></p>
+            <button id="be1" class="btn">Read more..</button>
+          </div>
+
+          <div id="bs-5">
+            <h2>DSP Talk On WLAN and CYBER SECURITY</h2>
+            <p class="effect" id="effe5" style="text-align:justify">ACM STUDENT CHAPTER organized an Expert talk on WLAN Security And CYBER SECURITY presented by Mr. Guru Raj (Young Scientist awardee for International travel Grants from ITS-SERB,DST, Government of India in December 2016). <span id="bf" style="display:none;">Students were found very interactive with the speaker . They got great knowledge in the field of WLAN and Cyber Security. There was also a hands-on session on Cyber Security after the expert talk in which selected students get the opportunity to know how things happen in the field of Cyber Security. The overall outcome of the event was excellent . All the students participant in the talk and hands-on session actively.<button id="bf2"><small><b>(Less..)</b></small></button></span></p>
+            <button id="bf1" class="btn">Read more..</button>
+          </div>
+
+          <div id="bs-6">
+            <h2>Clash Of Geeks</h2>
+            <p class="effect" id="effe6" style="text-align:justify">Clash of Geeks organised by ACM chapter to explore the potential of students in programming. There were two rounds for this event , first was screening round in which 50 teams were selected for final round based on the passing <span id="bh" style="display:none;">criteria and in the final round students were given compex problems and they have to solve the programming questions in C/C++ environment on hackerrank. Students took their time and submit their solutions. From the selected 50 teams two teams were declared as the winners of this event first and second respectively.  RESULTS: Ist prize - GUNEET GARG and AYUSH SINGLA (4th sem); 2nd prize - VIPUL POPLI and KUNAL PAHWA (4th sem)<button id="bh2"><small><b>(Less..)</b></small></button></span></p>
+            <button id="bh1" class="btn">Read more..</button>
+          </div>
+
+          <div id="bs-7">
+            <h2>Industrial Visit to NITTTR,Chandigarh</h2>
+            <p class="effect" id="effe7" style="text-align:justify">IE(I) Student Chapters, ACM, IEEE Student Chapter of Department of Computer Science and Engineering organized an industrial visit to National Institute of Technical Teachers Training & Research(NITTTR), Chandigarh on 29 March <span id="bi" style="display:none;">2018. Three faculty members of department and 37 students of ACM, IE(I) and IEEE visited the site. NITTTR had hosted an international conference with delegates from all over the world. The Chief Guest for the conference was Dr A.R Rao, Director NIPER Mohali. Dr BiplabSikdar (National University of Singapore, Singapore) , Dr. MD Mamun (UniversitiKebangsaan Malaysia, Malaysia) and Prof S.S. Pattnaik (Director-NITTTR, Chandigarh) were some of the delegates that attended the conference. There were four different talks on Future of Technology and Cyber Security <button id="bi2"><small><b>(Less..)</b></small></button></span></p>
+            <button id="bi1" class="btn">Read more..</button>
+          </div>
+
+          <div id="bs-8">
+            <h2>Acm-W Hackathon</h2>
+            <p class="effect" id="effe8" style="text-align:justify">According to the famous saying of mrs. Kirthiga reddy, head, facebook india "i strongly believe that the first step and the most important tool towards women empowerment is education. The right education will ensure that <span id="bj" style="display:none;">women are more competent and confident in taking up bigger challenges and raising the bar in any field". To promote women in engineering, acm student chapter, department of computer science and engineering organized a 24-hour national level hackathon in collaboration with acm-w and oracle academy on 2nd -3rd oct, 2017 for girl students.3rd of october marked the end of the hackathon. This journey of the hackathon started with the participation of 308 enthusiastic and tech-savvy teams from all over india with the theme of digital india. A team of 52 highly professional members from acm india, chitkara university, and oracle academy was formed to review the ideas and select the best 20 teams out of it. <button id="bj2"><small><b>(Less..)</b></small></button></span></p>
+            <button id="bj1" class="btn">Read more..</button>
+          </div>
+
+          <div id="bs-9">
+            <h2>CS Pathshala</h2>
+            <p class="effect" id="effe9" style="text-align:justify">Acm student chapter, chitkara university, in collaboration with acm india and cspathshala, organized a one-day workshop on the topic "bringing computational thinking to school" , on 15 july, 2017 at chitkara international <span id="bk" style="display:none;"> school, sector-25,chandigarh. The main goal of this workshop was to impart pedagogical as well as content training to teachers. Interacting with 165 delegates in the workshop was ms. Sonia garcha, cspathshala volunteer, program associate - csr, development support team along-with guest speaker mr. Madhavan mukund, president of acm india and professor and dean of studies, chennai mathematical institute, chennai.  This workshop imparted training to the teachers on problem solving and computational thinking, which enabled them to learn more about topics such as, decomposition, patterns, abstraction, algorithms, analysis and programming with day to day examples. Also, teachers were made familiar with the cspathshala training aids, and were also engaged in interesting activities on the above mentioned topics.<button id="bk2"><small><b>(Less..)</b></small></button></span></p>
+            <button id="bk1" class="btn">Read more..</button>
+          </div>
+
+          <div id="bs-10">
+            <h2>Infosys - IT Park Chandigarh</h2>
+            <p class="effect" id="effe10" style="text-align:justify">Chitkara acm student chapter organized an industrial visit to infosys chandigarh. 14 members of acm chitkara visited the site. The event started with the presentation given by mr. Kanwarpreet singh, who discussed <span id="bk" style="display:none;">software testing skills. Afterwards, a very interactive q&a session was held regarding the new trends in industries and new fields in technology. At last, the lunch was followed by the guided tour of the company. <button id="bk2"><small><b>(Less..)</b></small></button></span></p>
+            <button id="bk1" class="btn">Read more..</button>
+          </div>
+
+          <div id="bs-11">
+            <h2>Aarda</h2>
+            <p class="effect" id="effe11" style="text-align:justify">Acm student chapter chitkara university organized an event aarda in which second year students of be cse displayed their integrated projects in different categories. The event started with the arrival of highly reputed externals from <span id="bk" style="display:none;"> various domains ranging from academicians to corporate world. Venueswere embellished with posterpresentations. The students showcased theirprojects. The evaluations of students were highly appreciated by the examiners.  The event reached its zenith with the involvement of students from sections of cse 2nd year (e to h). The students received accolades with eminent award, star award and consolation prize.<button id="bk2"><small><b>(Less..)</b></small></button></span></p>
+            <button id="bk1" class="btn">Read more..</button>
+          </div>
+
+          <div id="bs-12">
+            <h2>Expert Talk -DR. Amit Nanavati</h2>
+            <p class="effect" id="effe12" style="text-align:justify">Acm student chapter, chitkara university organized a dsp (distinguished speaker program) on the topic "what does engineering mean to a student ?" on 15th march, 2017 . The session witnessed a turnaround of about 200 <span id="bl" style="display:none;">participants, comprising of students from cse and m.tech department and faculty members from the research & cse department. <button id="bl2"><small><b>(Less..)</b></small></button></span></p>
+            <button id="bl1" class="btn">Read more..</button>
+          </div>
+
+          <div id="bs-13">
+            <h2>Alumni Talk - MR. Prateek Garg</h2>
+            <p class="effect" id="effe13" style="text-align:justify">Acm student chapter (department of computer science and engineering) has invited mr. Chandra shekhar (ceo of acm india) for a visit to our campus (chitkara university punjab) on 1st april, 2017. During the campus visit, he  <span id="bm" style="display:none;"> attended a meeting with dr. Archana matri, dr. Rajnesh sharma and ms. Meenu khurana. During the meeting, he discussed various acm india events and also suggested few of them to be conducted by chitkara university.Cs-pathshala, summer school workshop, acm-w and esp were the pioneer event to be hosted by chitkara university. <button id="bm2"><small><b>(Less..)</b></small></button></span></p>
+            <button id="bm1" class="btn">Read more..</button>
+          </div>
+
+          <div id="bs-14">
+            <h2>Technovation</h2>
+            <p class="effect" id="effe14" style="text-align:justify">Acm student chapter chitkara university organized an event technovation in which third year students of be cse displayed their integrated projects in different categories. The event started with the arrival of highly reputed <span id="bn" style="display:none;">externals from various domains ranging from academicians to corporate world. Venues were embellished with poster presentations. The students showcased their projects. The evaluations of students were highly appreciated by the examiners.<button id="bn2"><small><b>(Less..)</b></small></button></span></p>
+            <button id="bn1" class="btn">Read more..</button>
+          </div>
+            
+        </div>
+
+  <script>
+
+
+var j=0;
+var s=1;
+        $('#info').html($('#bs-'+j).html());
+        // When the carousel slides, auto update the text
+        
+        $('#go2').on('click', function() {
+          j++;
+                var s = j%15;
+              $('#info').html($('#bs-'+s).html());
+        });
+        $('#go1').on('click', function() {
+                j--;
+                var s = j%15;
+              $('#info').html($('#bs-'+s).html());
+        });
+</script>
+<div id ="footer"></div>
 
 </body>
 </html>
