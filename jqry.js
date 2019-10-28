@@ -15,11 +15,15 @@ $(document).ready(function(){
     $("#ba").show();
     $("#ba1").hide();
      $("#effe").removeClass("effect");
+     $("#sec2").removeClass("heht1")
+     $("#sec2").addClass("heht");
   });
    $("#ba2").click(function(){
     $("#ba").hide();
     $("#ba1").show();
     $("#effe").addClass("effect");
+    $("#sec2").removeClass("heht");
+    $("#sec2").addClass("heht1");
   });
 
     $("#bb1").click(function(){
