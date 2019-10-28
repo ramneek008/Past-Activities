@@ -129,10 +129,30 @@ h3
 	;
 }
 
+#year
+{
+	text-align:center;
+	text-decoration: underline;
+	color:#8533ff;
+	font-size:2vw;
+	text-shadow: 1px 1px #330080 ;
+	background-image: radial-gradient(#e0ccff,white, white);
+
+}
+
+
 p
 {
 	font-family: 'Karla';
 	font-size:1.32vw;
+}
+
+.heht1{
+	margin-top:26vw;
+}
+.heht{
+	margin-top:46vw;
+
 }
 
 
@@ -239,7 +259,6 @@ p
 
 
 .carousel-control{
-	height:77%;
 	margin: 12vw -35%;
 	z-index:1;
 	background: none !important;
@@ -314,7 +333,7 @@ p
 
 
 #myBtn {
-  display:block;
+  display:none;
   background-color:transparent;
   position: fixed;
   bottom: 1vw;
