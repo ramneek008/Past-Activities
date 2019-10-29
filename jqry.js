@@ -19,7 +19,7 @@ function te1(){
     $("#ba").show();
     $("#ba1").hide();
      $("#effe").removeClass("effect");
-     $("#sec2").removeClass("heht1")
+     $("#sec2").removeClass("heht1");
      $("#sec2").addClass("heht2");
   };
 
@@ -35,7 +35,7 @@ function te1(){
      $("#bb").show();
     $("#bb1").hide();
      $("#effe1").removeClass("effect");
-     $("#sec2").removeClass("heht1")
+     $("#sec2").removeClass("heht1");
      $("#sec2").addClass("heht");
   };
 
@@ -51,7 +51,7 @@ function te1(){
      $("#bc").show();
     $("#bc1").hide();
      $("#effe2").removeClass("effect");
-     $("#sec2").removeClass("heht1")
+     $("#sec2").removeClass("heht1");
      $("#sec2").addClass("heht");
   };
 
@@ -67,15 +67,15 @@ function te1(){
     $("#bd").show();
     $("#bd1").hide();
      $("#effe3").removeClass("effect");
-     $("#sec2").removeClass("heht1")
-     $("#sec2").addClass("heht");
+     $("#sec2").removeClass("heht1");
+     $("#sec2").addClass("heht2");
   };
 
   function tell8(){
      $("#bd").hide();
     $("#bd1").show();
     $("#effe3").addClass("effect");
-    $("#sec2").removeClass("heht");
+    $("#sec2").removeClass("heht2");
     $("#sec2").addClass("heht1");
   };
 
@@ -83,7 +83,7 @@ function te1(){
     $("#be").show();
     $("#be1").hide();
      $("#effe4").removeClass("effect");
-     $("#sec3").removeClass("heht1")
+     $("#sec3").removeClass("heht1");
      $("#sec3").addClass("heht");
   };
 
@@ -99,7 +99,7 @@ function te1(){
     $("#bf").show();
     $("#bf1").hide();
      $("#effe5").removeClass("effect");
-     $("#sec3").removeClass("heht1")
+     $("#sec3").removeClass("heht1");
      $("#sec3").addClass("heht");
   };
 
@@ -116,7 +116,7 @@ function te1(){
      $("#bh").show();
     $("#bh1").hide();
      $("#effe6").removeClass("effect");
-     $("#sec3").removeClass("heht1")
+     $("#sec3").removeClass("heht1");
      $("#sec3").addClass("heht");
 
   };
@@ -134,15 +134,15 @@ function te1(){
     $("#bi").show();
     $("#bi1").hide();
      $("#effe7").removeClass("effect");
-     $("#sec3").removeClass("heht1")
-     $("#sec3").addClass("heht");
+     $("#sec3").removeClass("heht1");
+     $("#sec3").addClass("heht2");
   };
 
   function tell16(){
     $("#bi").hide();
     $("#bi1").show();
     $("#effe7").addClass("effect");
-    $("#sec3").removeClass("heht");
+    $("#sec3").removeClass("heht2");
     $("#sec3").addClass("heht1");
 
   };
@@ -151,7 +151,7 @@ function te1(){
      $("#bj").show();
     $("#bj1").hide();
      $("#effe8").removeClass("effect");
-     $("#footer").removeClass("heht1")
+     $("#footer").removeClass("heht1");
      $("#footer").addClass("heht2");
 
   };
@@ -168,15 +168,15 @@ function te1(){
      $("#bk").show();
     $("#bk1").hide();
      $("#effe9").removeClass("effect");
-     $("#footer").removeClass("heht1")
-     $("#footer").addClass("heht");
+     $("#footer").removeClass("heht1");
+     $("#footer").addClass("heht2");
   };
 
   function tell20(){
     $("#bk").hide();
     $("#bk1").show();
     $("#effe9").addClass("effect");
-    $("#footer").removeClass("heht");
+    $("#footer").removeClass("heht2");
     $("#footer").addClass("heht1");
   };
 
@@ -184,7 +184,7 @@ function te1(){
     $("#bl").show();
     $("#bl1").hide();
      $("#effe10").removeClass("effect");
-     $("#footer").removeClass("heht1")
+     $("#footer").removeClass("heht1");
      $("#footer").addClass("heht");
   };
 
@@ -200,7 +200,7 @@ function te1(){
      $("#bm").show();
     $("#bm1").hide();
      $("#effe11").removeClass("effect");
-     $("#footer").removeClass("heht1")
+     $("#footer").removeClass("heht1");
      $("#footer").addClass("heht");
   };
 
@@ -216,7 +216,7 @@ function te1(){
       $("#bn").show();
     $("#bn1").hide();
      $("#effe12").removeClass("effect");
-     $("#footer").removeClass("heht1")
+     $("#footer").removeClass("heht1");
      $("#footer").addClass("heht");
   };
 
@@ -232,7 +232,7 @@ function te1(){
     $("#bo").show();
     $("#bo1").hide();
      $("#effe13").removeClass("effect");
-     $("#footer").removeClass("heht1")
+     $("#footer").removeClass("heht1");
      $("#footer").addClass("heht");
   };
 
@@ -248,7 +248,7 @@ function te1(){
     $("#bp").show();
     $("#bp1").hide();
      $("#effe14").removeClass("effect");
-     $("#footer").removeClass("heht1")
+     $("#footer").removeClass("heht1");
      $("#footer").addClass("heht");
   };
 
@@ -264,8 +264,9 @@ function te1(){
     $("#bq").show();
     $("#bq1").hide();
      $("#effe15").removeClass("effect");
-     $("#footer").removeClass("heht1")
-     $("#footer").addClass("heht");  };
+     $("#footer").removeClass("heht1");
+     $("#footer").addClass("heht");  
+   };
 
   function tell32(){
     $("#bq").hide();
