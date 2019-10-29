@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="pastevents.css">
+  <link rel="stylesheet" href="style.css">
   <link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=B612' rel='stylesheet'>
 <link href='https://fonts.googleapis.com/css?family=Capriola' rel='stylesheet'>
@@ -285,11 +285,11 @@ $('.cnt').html(b+'/15');
       <div class="item"><img src="res/coda_6.jpg" style="width:100%;height:27vw"></div>
     </div>
 
-<a class="left carousel-control" class="go1" href=".onlyth" data-slide="prev">
-      <img src="res/Arrow-up.png" class="go1" style="transform: rotate(-90deg);">
+<a class="left carousel-control go1" href=".onlyth" data-slide="prev">
+      <img src="res/Arrow-up.png" class="go1 gi1" style="transform: rotate(-90deg);">
     </a>
-    <a class="right carousel-control" class="go2" href=".onlyth" data-slide="next">
-      <img src="res/Arrow-up.png" class="go2" style="transform: rotate(90deg);">
+    <a class="right carousel-control go2" href=".onlyth" data-slide="next">
+      <img src="res/Arrow-up.png" class="go2 gi2" style="transform: rotate(90deg);">
     </a>
    
   </div>
@@ -334,7 +334,7 @@ $('.cnt').html(b+'/15');
 
           <div id="bs-2">
             <h2>Hackon Workshop</h2>
-            <p class="effect" id="effe2" style="text-align:justify">ACM student Chapter Chitkara University organized two days workshop on #Ethical_Hacking and #Information_Security in association with learncodeonline.in . The resource person for the workshop was Co-founder of <span id="bc" style="display:none;"> learncodeonline.in Mr Saksham Choudhary who is world's renowned #Cyber-Security Researcher and very famous Youtuber. In this workshop students participated with great interest and they get hands-on on the topics like #Social_Attacks , #CCTV_Attacks , #BurpSuite , #SQL_Injection ,  #Web-cam_Hacking and many more .After completing the workshop students got certification as well for #Cyber_Security_Expert Level-1 and some goodies too.<button id="bc2" onclick="tell6()"><small><b>(Less..)</b></small></button></span></p>
+            <p class="effect" id="effe2" style="text-align:justify">ACM student Chapter Chitkara University organized two days workshop on #Ethical_Hacking and #Information_Security in association with learncodeonline.in . The resource person for the workshop was Co-founder of <span id="bc" style="display:none;"> learncodeonline.in Mr Saksham Choudhary who is world's renowned #Cyber-Security Researcher and very famous Youtuber. In this workshop students participated with great interest and they get hands-on on the topics like #Social_Attacks , #CCTV_Attacks , #BurpSuite , #SQL_Injection ,  #Web-cam_Hacking and many more .After completing the workshop students got certification as well for #Cyber_Security_Expert Level-1 and some goodies.<button id="bc2" onclick="tell6()"><small><b>(Less..)</b></small></button></span></p>
             <button id="bc1" onclick="tell5()" class="btn">Read more..</button>
           </div>
 
@@ -355,14 +355,20 @@ var e=0;
         $('#info').html($('#bs-'+c).html());
         // When the carousel slides, auto update the text
         
-        $('.go2').on('click', function() {
+        $('.gi2').on('click', function() {
+          $("#sec2").removeClass("heht");
+     $("#sec2").removeClass("heht2");
+     $("#sec2").addClass("heht1");
           c++;
                 var d = c%4;
                 if(d<0)
                   d=d+4;
               $('#info').html($('#bs-'+d).html());
         });
-        $('.go1').on('click', function() {
+        $('.gi1').on('click', function() {
+           $("#sec2").removeClass("heht");
+     $("#sec2").removeClass("heht2");
+     $("#sec2").addClass("heht1");
                 c--;
                 var d = c%4;
                 if(d<0)
@@ -372,7 +378,7 @@ var e=0;
 
 const dist = document.querySelector('#info');
 
-document.querySelector('.go2').addEventListener('click', () => {
+document.querySelector('.gi2').addEventListener('click', () => {
   if(e==0)
   dist.classList.remove('in-up');
 else
@@ -383,7 +389,7 @@ dist.classList.remove('in-up2');
   });
 });
 
-document.querySelector('.go1').addEventListener('click', () => {
+document.querySelector('.gi1').addEventListener('click', () => {
    if(e==0)
   dist.classList.remove('in-up');
 else
@@ -450,11 +456,11 @@ dist.classList.remove('in-up2');
       <div class="item"><img src="res/indu_1.jpg" style="width:100%;height:27vw"></div>
     </div>
 
-<a class="left carousel-control" class="goi1" href=".onlyth2" data-slide="prev">
-      <img src="res/Arrow-up.png" class="goi1" style="transform: rotate(-90deg);">
+<a class="left carousel-control goi1" href=".onlyth2" data-slide="prev">
+      <img src="res/Arrow-up.png" class="goi1 gii1" style="transform: rotate(-90deg);">
     </a>
-    <a class="right carousel-control" class="goi2" href=".onlyth2" data-slide="next">
-      <img src="res/Arrow-up.png" class="goi2" style="transform: rotate(90deg);">
+    <a class="right carousel-control goi2" href=".onlyth2" data-slide="next">
+      <img src="res/Arrow-up.png" class="goi2 gii2" style="transform: rotate(90deg);">
     </a>
    
   </div>
@@ -525,14 +531,20 @@ var h=0;
         $('#info2').html($('#bsi-'+f).html());
         // When the carousel slides, auto update the text
         
-        $('.goi2').on('click', function() {
+        $('.gii2').on('click', function() {
+          $("#sec3").removeClass("heht");
+     $("#sec3").removeClass("heht2");
+     $("#sec3").addClass("heht1");
           f++;
                 var g = f%4;
                 if(g<0)
                   g=g+4;
               $('#info2').html($('#bsi-'+g).html());
         });
-        $('.goi1').on('click', function() {
+        $('.gii1').on('click', function() {
+          $("#sec3").removeClass("heht");
+     $("#sec3").removeClass("heht2");
+     $("#sec3").addClass("heht1");
                 f--;
                 var g = f%4;
                 if(g<0)
@@ -542,7 +554,7 @@ var h=0;
 
 const dist2 = document.querySelector('#info2');
 
-document.querySelector('.goi2').addEventListener('click', () => {
+document.querySelector('.gii2').addEventListener('click', () => {
   if(h==0)
   dist2.classList.remove('in-up');
 else
@@ -553,7 +565,7 @@ dist2.classList.remove('in-up2');
   });
 });
 
-document.querySelector('.goi1').addEventListener('click', () => {
+document.querySelector('.gii1').addEventListener('click', () => {
    if(h==0)
   dist2.classList.remove('in-up');
 else
@@ -628,11 +640,11 @@ dist2.classList.remove('in-up2');
       <div class="item"><img src="res/acm1.png" style="width:100%;height:27vw"></div>
     </div>
 
-<a class="left carousel-control" class="goj1" href=".onlyth3" data-slide="prev">
-      <img src="res/Arrow-up.png" class="goj1" style="transform: rotate(-90deg);">
+<a class="left carousel-control goj1" href=".onlyth3" data-slide="prev">
+      <img src="res/Arrow-up.png" class="goj1 gij1" style="transform: rotate(-90deg);">
     </a>
-    <a class="right carousel-control" class="goj2" href=".onlyth3" data-slide="next">
-      <img src="res/Arrow-up.png" class="goj2" style="transform: rotate(90deg);">
+    <a class="right carousel-control goj2" href=".onlyth3" data-slide="next">
+      <img src="res/Arrow-up.png" class="goj2 gij2" style="transform: rotate(90deg);">
     </a>
    
   </div>
@@ -708,14 +720,14 @@ dist2.classList.remove('in-up2');
 
           <div id="bsj-6">
             <h2>Alumni Talk - MR. Prateek Garg</h2>
-            <p class="effect" id="effe14" style="text-align:justify">Acm student chapter (department of computer science and engineering) has invited mr. Chandra shekhar (ceo of acm india) for a visit to our campus (chitkara university punjab) on 1st april, 2017. During the campus visit, he  <span id="bp" style="display:none;"> attended a meeting with dr. Archana matri, dr. Rajnesh sharma and ms. Meenu khurana. During the meeting, he discussed various acm india events and also suggested few of them to be conducted by chitkara university.Cs-pathshala, summer school workshop, acm-w and esp were the pioneer event to be hosted by chitkara university. <button id="bp30" onclick="tell1()"><small><b>(Less..)</b></small></button></span></p>
-            <button id="bp29" onclick="tell1()" class="btn">Read more..</button>
+            <p class="effect" id="effe14" style="text-align:justify">Acm student chapter (department of computer science and engineering) has invited mr. Chandra shekhar (ceo of acm india) for a visit to our campus (chitkara university punjab) on 1st april, 2017. During the campus visit, he  <span id="bp" style="display:none;"> attended a meeting with dr. Archana matri, dr. Rajnesh sharma and ms. Meenu khurana. During the meeting, he discussed various acm india events and also suggested few of them to be conducted by chitkara university.Cs-pathshala, summer school workshop, acm-w and esp were the pioneer event to be hosted by chitkara university. <button id="bp2" onclick="tell30()"><small><b>(Less..)</b></small></button></span></p>
+            <button id="bp1" onclick="tell29()" class="btn">Read more..</button>
           </div>
 
           <div id="bsj-7">
             <h2>Technovation</h2>
             <p class="effect" id="effe15" style="text-align:justify">Acm student chapter chitkara university organized an event technovation in which third year students of be cse displayed their integrated projects in different categories. The event started with the arrival of highly reputed <span id="bq" style="display:none;">externals from various domains ranging from academicians to corporate world. Venues were embellished with poster presentations. The students showcased their projects. The evaluations of students were highly appreciated by the examiners.<button id="bq2" onclick="tell32()"><small><b>(Less..)</b></small></button></span></p>
-            <button id="bq31" onclick="tell1()" class="btn">Read more..</button>
+            <button id="bq1" onclick="tell31()" class="btn">Read more..</button>
           </div>
             
         </div>
@@ -730,14 +742,20 @@ var k=0;
         $('#info3').html($('#bsj-'+i).html());
         // When the carousel slides, auto update the text
         
-        $('.goj2').on('click', function() {
+        $('.gij2').on('click', function() {
+          $("#footer").removeClass("heht");
+     $("#footer").removeClass("heht2");
+     $("#footer").addClass("heht1");
           i++;
                 var j = i%8;
                 if(j<0)
                   j=j+8;
               $('#info3').html($('#bsj-'+j).html());
         });
-        $('.goj1').on('click', function() {
+        $('.gij1').on('click', function() {
+          $("#footer").removeClass("heht");
+     $("#footer").removeClass("heht2");
+     $("#footer").addClass("heht1");
                 i--;
                 var j = i%8;
                 if(j<0)
@@ -747,7 +765,7 @@ var k=0;
 
 const dist3 = document.querySelector('#info3');
 
-document.querySelector('.goj2').addEventListener('click', () => {
+document.querySelector('.gij2').addEventListener('click', () => {
   if(k==0)
   dist3.classList.remove('in-up');
 else
@@ -758,7 +776,7 @@ dist3.classList.remove('in-up2');
   });
 });
 
-document.querySelector('.goj1').addEventListener('click', () => {
+document.querySelector('.gij1').addEventListener('click', () => {
    if(k==0)
   dist3.classList.remove('in-up');
 else
