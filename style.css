@@ -1,17 +1,47 @@
 #navbar
 {
 	background-image:url("res/header-wave.png");
-	background-size:100% 100%;
+	background-size:100% 80%;
+	background-repeat:no-repeat;
+}
+#navbar a:hover, #navbar a:active, #navbar a:link, #navbar a:visited{
+background-color: transparent;
+}
 
+#navbar #norm{
+	background-color:white;
+	margin:1vw -3px;
+	color:black;
+	border-radius: 24px;
+	padding:0.6vw 1.8vw;
+	font-size:2.1vh;
+	text-align:center;
+	box-shadow:0 7px 12px 0 rgba(0, 0, 0, 0.2);
 }
-.navbar
-{
-	height:2vw;
-	width:auto;
+
+#navbar #spec{
+	background-color:#117A8B;
+	color:white;
+	margin:1.3vw -3px;
+	border-radius: 24px;
+	padding:.6vw 1.8vw;
+	font-size:2vh;
+	text-align:center;
+	box-shadow:0 7px 12px 0 rgba(0, 0, 0, 0.2);
 }
+
+#navbar .navbar-toggle {
+    width:60px;
+    height:50px;
+    margin-top:10px;
+}
+#navbar #thrl{
+	width:100%;
+}
+
 #logo
 {
-	width:10vw;
+	width:8.5vw;
 }
 
 
@@ -62,26 +92,6 @@
 	border:none;
 	color:blue;
 
-}
-
-li{
-	background-color:#94b8b8;
-	margin:15px 10px;
-	border-radius: 24px;
-	width:9vw;
-	height:auto;
-	padding:0vw;
-	font-size:1.1vw;
-	text-align:center;
-	box-shadow:0 12px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
-}
-li a{
-	color:white;
-	margin:-6px;
-}
-.active
-{
-	background-color:#1a8cff;
 }
 
 .row
@@ -398,26 +408,6 @@ color:#400080;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media(max-width:1296px)
 {
 	#info
@@ -447,13 +437,6 @@ color:#400080;
 
 
 
-
-
-
-
-
-
-
 @media(max-width:767px)
 {
 
@@ -462,15 +445,38 @@ color:#400080;
 {
 	margin-top:2.2vw;
 }
+
+#navbar #norm{
+	padding:0.7vw 1.9vw;
+	font-size:2vh;
+	margin:0.3vw 0px;
+}
+
+#navbar #norm1{
+	margin-top:2vw;
+}
+
+#navbar #spec{
+	padding:0.7vw 1.9vw;
+	font-size:2vh;
+	margin:0.3vw 0px;
+}
+
+#navbar .navbar-toggle {
+    width:7vh;
+    height:50px;
+    margin-top:10px;
+}
+
 .navbar
 {
-	height:2vw;
+	height:auto;
 	width:auto;
 }
 
 #logo
 {
-	width:13vw;
+	width:80px;
 	margin-top:-1vw;
 }
 
@@ -481,6 +487,11 @@ color:#400080;
 	height:auto;
 }
 
+#myNavbar{
+	background-color: white;
+	z-index:99;
+}
+
 .row
 {
 	background-size:100% 40%;
@@ -488,6 +499,7 @@ color:#400080;
 	background-position:5% 20%;
 	text-align: justify;
 	margin-bottom:4vw;
+	z-index:-1;
 }
 
 	h1
@@ -645,19 +657,7 @@ padding:2.3vw;
 	line-height:1.5vw;
 }
 
-
-
-
-
-
-
-
-
-
 }
-
-
-
 
 
 
@@ -670,16 +670,50 @@ padding:2.3vw;
 {
 	margin-top:4.9vw;
 }
-#navbar
-{
-	height:8vw;
-	width:auto;
+
+
+#navbar #norm{
+	padding:0.9vw 3vw;
+	font-size:1.5vh;
+	margin:0vw 0px;
 }
 
+#navbar #norm1{
+	margin-top:6vw;
+}
+
+#navbar #spec{
+	padding:0.9vw 3vw;
+	font-size:1.5vh;
+	margin:0vw 0px;
+}
+
+#navbar .navbar-toggle {
+    width:7vh;
+    height:50px;
+    margin-top:10px;
+}
+
+
+#navbar
+{
+	height:auto;
+	width:auto;
+}
+#myNavbar{
+	background-color: white;
+	z-index:99;
+}
 #logo
 {
-	width:15vw;
+	width:10vh;
 	margin-top:-2vw;
+	margin-bottom:20px;
+}
+#navbar .navbar-toggle {
+    width:45px;
+    height:20px;
+    margin-top:12px;
 }
 
 .row

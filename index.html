@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="pastevents.css">
   <link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=B612' rel='stylesheet'>
 <link href='https://fonts.googleapis.com/css?family=Capriola' rel='stylesheet'>
@@ -16,34 +16,26 @@
 <link href='https://fonts.googleapis.com/css?family=Convergence' rel='stylesheet'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href='https://fonts.googleapis.com/css?family=Carme' rel='stylesheet'>
-
-
-
 <script src="jqry.js">
 </script>
-
-
 </head>
+
 <body>
   <div id ="navbar">
-    <nav class="navbar" >
+    <nav class="navbar">
   <div class="container-fluid">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"><img src="res/t.png" id="thrl">                     
       </button>
-      <a class="navbar-brand" ><img id ="logo" class="img-responsive" src="res/logo.png"></a>
+      <a class="navbar-brand" ><img id ="logo" class="img-responsive" src="res/acm_chapter_sym-hires.png"></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a >Home</a></li>
-        <li class="active"><a >Events</a></li>
-        <li><a >About Us</a></li>
-        <li><a >Team</a></li>
-        <li style="margin-right:40px"><a >Contact</a></li>
-
+        <li id="norm1"><a href="#"><button class="btn" id="norm">Home</button></a></li>
+        <li><a href="#"><button class="btn" id="norm">About Us</button></a></li>
+        <li><a href="#"><button class="btn" id="spec">Events</button></a></li>
+        <li><a href="#"><button class="btn" id="norm">Office Bearers</button></a></li>
+        <li><a href="#"><button class="btn" id="norm">Contact</button></a></li>
       </ul>
     </div>
   </div>
@@ -51,10 +43,8 @@
   </div>
 
 
-
 <div class="container-fluid">
   <!-- Slider -->
-
   <div class="row">
     <div class="col-sm-7" id="slider">
       <!-- Top part of the slider -->
@@ -177,23 +167,17 @@
           
         </div>
         
-       
-        
-        
-        
       </div>
       
     </div>
   </div> <!--/Slider-->
 
-  
 
 <script>
 var a=0;
 var b=1;
         $('#carousel-text').html($('#slide-content-'+a).html());
 $('.cnt').html(b+'/15');
-
 
         // When the carousel slides, auto update the text
         
@@ -215,46 +199,6 @@ $('.cnt').html(b+'/15');
         });
 </script>
 <button onclick="downFunction()" id="myBtn1" class="kreep" title="Go Down"><a href="#sec" class="in-up"><img src="res/Arrow-up.png" style="transform: rotate(180deg);width:3vw"></a></button>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <div id="sec">
@@ -308,7 +252,6 @@ $('.cnt').html(b+'/15');
       <div class="item"><img src="res/and5.jpg" style="width:100%;height:23vw"></div>
     </div>
     <!-- Left and right controls -->
-    
     
   </div>
 </div>
@@ -406,29 +349,6 @@ dist.classList.remove('in-up2');
 </script>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <div id="sec2" class="heht1">
 <h3 id ="year">Events Of 2018</h3>
  <div class="container" style="height:27vw;" >
@@ -517,13 +437,10 @@ dist.classList.remove('in-up2');
             <button id="bi1" onclick="tell15()" class="btn">Read more..</button>
           </div>
 
-         
-            
         </div>
 
 
   <script>
-
 
 var f=0;
 var g=1;
@@ -579,30 +496,6 @@ dist2.classList.remove('in-up2');
 
 
 </script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <div id="sec3" class="heht1">
@@ -788,36 +681,7 @@ dist3.classList.remove('in-up2');
   });
 });
 
-
-
 </script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <button onclick="topFunction()" id="myBtn" title="Go to top"><a href="#navbar"><img src="res/Arrow-up.png" style="width:3vw"></a></button>
@@ -897,10 +761,7 @@ function isScrolledIntoView(elem) {
             $('#info3').addClass('in-up');
         }
 
-
-
     });
-
 
 
 
